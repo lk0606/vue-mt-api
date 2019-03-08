@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var regRouter = require('./routes/modules/reg');
 
 var app = express();
 
@@ -16,11 +17,11 @@ app.set('view engine', 'pug');
 //跨域请求头
 app.all("*",(req,res,next)=>{
     res.header("Access-Control-Allow-Origin", "*");
-    // res.header("Access-Control-Allow-Credentials", "true");
+    res.header("Access-Control-Allow-Credentials", "true");
     // auth Authorization
     res.header("Access-Control-Allow-Headers", "X-Requested-With ,Access-Control-Allow-Headers, Origin, Content-Type, Accept, Authorization,lk-auth");
     res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
-    res.header("X-Powered-By",' 3.2.1')
+    res.header("X-Powered-By",' 3.2.1');
     res.header("Content-Type", "application/json; charset=utf-8");
     next();
 });
@@ -33,7 +34,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-
+app.use('/reg', regRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
