@@ -28,6 +28,7 @@ router.post('/checkCode', function(req, res, next) {
   let checkCode = {
     checkCode: randomCode
   }
+  console.log(checkCode, '--------验证码------')
   res.json(checkCode);
 })
 module.exports = router;

@@ -4,10 +4,10 @@
     "msg": "操作成功",
     "code": 200,
     "data":{
-      "1": "http://192.168.31.163:3000/images/img-index/ban1.jpg",
-      "2": "http://192.168.31.163:3000/images/img-index/ban2.jpg",
-      "3": "http://192.168.31.163:3000/images/img-index/ban3.jpg",
-      "4": "http://192.168.31.163:3000/images/img-index/ban4.jpg",
-      "5": "http://192.168.31.163:3000/images/img-index/ban5.jpg"
+      "1": "http://localhost:3000/images/img-index/ban1.jpg",
+      "2": "http://localhost:3000/images/img-index/ban2.jpg",
+      "3": "http://localhost:3000/images/img-index/ban3.jpg",
+      "4": "http://localhost:3000/images/img-index/ban4.jpg",
+      "5": "http://localhost:3000/images/img-index/ban5.jpg"
     }
   }

@@ -14,15 +14,15 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-//跨域请求头
+// 跨域请求头
 app.all("*",(req,res,next)=>{
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Credentials", "true");
     // auth Authorization
     res.header("Access-Control-Allow-Headers", "X-Requested-With ,Access-Control-Allow-Headers, Origin, Content-Type, Accept, Authorization,lk-auth");
     res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
-    res.header("X-Powered-By",' 3.2.1');
     res.header("Content-Type", "application/json; charset=utf-8");
+    res.header("X-Powered-By",' 3.2.1');
     next();
 });
 

@@ -7,30 +7,30 @@
       "nav": [
         {
         "list": {
-          "美食": "http://192.168.31.163:3000/images/img-index/nav1.png",
-          "美团超市": "http://192.168.31.163:3000/images/img-index/nav2.png",
-          "生鲜蔬果": "http://192.168.31.163:3000/images/img-index/nav3.png",
-          "美团专送": "http://192.168.31.163:3000/images/img-index/nav4.png",
-          "跑腿代购": "http://192.168.31.163:3000/images/img-index/nav5.png",
-          "下午茶": "http://192.168.31.163:3000/images/img-index/nav6.png",
-          "汉堡披萨": "http://192.168.31.163:3000/images/img-index/nav7.png",
-          "鸭脖卤菜": "http://192.168.31.163:3000/images/img-index/nav8.png",
-          "炸鸡零食": "http://192.168.31.163:3000/images/img-index/nav9.png",
-          "日韩料理": "http://192.168.31.163:3000/images/img-index/nav10.png"
+          "美食": "http://localhost:3000/images/img-index/nav1.png",
+          "美团超市": "http://localhost:3000/images/img-index/nav2.png",
+          "生鲜蔬果": "http://localhost:3000/images/img-index/nav3.png",
+          "美团专送": "http://localhost:3000/images/img-index/nav4.png",
+          "跑腿代购": "http://localhost:3000/images/img-index/nav5.png",
+          "下午茶": "http://localhost:3000/images/img-index/nav6.png",
+          "汉堡披萨": "http://localhost:3000/images/img-index/nav7.png",
+          "鸭脖卤菜": "http://localhost:3000/images/img-index/nav8.png",
+          "炸鸡零食": "http://localhost:3000/images/img-index/nav9.png",
+          "日韩料理": "http://localhost:3000/images/img-index/nav10.png"
         }
       },
         {
         "list": {
-          "品牌连锁": "http://192.168.31.163:3000/images/img-index/nav11.png",
-          "甜蜜蛋糕": "http://192.168.31.163:3000/images/img-index/nav12.png",
-          "浪漫鲜花": "http://192.168.31.163:3000/images/img-index/nav13.png",
-          "到店自取": "http://192.168.31.163:3000/images/img-index/nav14.png",
-          "麻辣烫冒菜": "http://192.168.31.163:3000/images/img-index/nav15.png",
-          "送药上门": "http://192.168.31.163:3000/images/img-index/nav16.png",
-          "包子粥铺": "http://192.168.31.163:3000/images/img-index/nav17.png",
-          "无辣不欢": "http://192.168.31.163:3000/images/img-index/nav18.png",
-          "凉皮肉夹馍": "http://192.168.31.163:3000/images/img-index/nav19.png",
-          "全部分类": "http://192.168.31.163:3000/images/img-index/nav20.png"
+          "品牌连锁": "http://localhost:3000/images/img-index/nav11.png",
+          "甜蜜蛋糕": "http://localhost:3000/images/img-index/nav12.png",
+          "浪漫鲜花": "http://localhost:3000/images/img-index/nav13.png",
+          "到店自取": "http://localhost:3000/images/img-index/nav14.png",
+          "麻辣烫冒菜": "http://localhost:3000/images/img-index/nav15.png",
+          "送药上门": "http://localhost:3000/images/img-index/nav16.png",
+          "包子粥铺": "http://localhost:3000/images/img-index/nav17.png",
+          "无辣不欢": "http://localhost:3000/images/img-index/nav18.png",
+          "凉皮肉夹馍": "http://localhost:3000/images/img-index/nav19.png",
+          "全部分类": "http://localhost:3000/images/img-index/nav20.png"
         }
       }
       ]
